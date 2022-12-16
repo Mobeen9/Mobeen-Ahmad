@@ -1,0 +1,41 @@
+img{
+
+    height: 60px; width: 60px;
+    float: right;
+
+
+}
+
+
+.d2{
+
+    
+    height: 200px;width: 300px;
+    border: solid;color: blue;
+    
+}
+
+.image1{
+height: 70px; width: 80px;
+
+}
+
+.div1{
+
+
+    height: 150px;width: 200px; background-color: aqua;
+}
+.div2{
+
+    height: 150px;width: 200px; background-color: blueviolet;
+position: relative;top: 50px;
+
+
+}
+
+.div3{
+
+
+    height: 150px;width: 200px; background-color: blue;color: black;
+}
+

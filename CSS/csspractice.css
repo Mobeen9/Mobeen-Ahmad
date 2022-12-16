@@ -1,0 +1,32 @@
+.cancel{
+
+    border-radius: 15%;background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(193,252,70,1) 100%);
+}
+
+.button{
+
+border-radius: 15%;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(183,70,252,1) 100%);
+cursor: pointer;
+
+}
+.button:hover{
+
+background:red ;
+color: aquamarine;
+
+}
+
+.button:active{
+
+    background: hotpink;
+    
+}
+
+.button:visited{
+
+    background:grey;
+}
+

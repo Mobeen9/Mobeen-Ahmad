@@ -1,0 +1,60 @@
+.div1:hover{
+    height: 70px;width: 60px;background-color: aqua;border: solid;border-color: lawngreen;
+position: relative; top: 20px;
+cursor: pointer; 
+
+}
+.image1{height: 70px;width: 60px;
+
+}
+
+.div2{
+
+    height: 60px;width: 60px;background-color: aqua;border: solid;border-color: rgb(67, 0, 252);
+position: relative;bottom: 40px;align-items: center;margin-left: 70px;   
+cursor: pointer; display: block;
+
+}
+.image2{
+
+    height: 60px;width: 60px;
+}
+
+.div3{
+    
+height: 80px;width: 80px;background-color: aqua;border: solid;border-color: rgb(61, 18, 88);
+position: relative; bottom: 80px;
+}
+.image3{
+    height: 80px;width: 80px;
+}
+.div4{height: 80px;width: 80px;border-color: gold;border: solid; border-radius: 50%;
+position: relative; left: 40px; bottom: 150px;
+}
+
+.image4{height: 80px;width: 80px;border-radius: 50%;
+
+}
+.div5
+{height: 80px;width: 80px;border-color: gold;border: solid; border-radius: 50%;
+    position: relative;bottom: 200px;
+}
+.image5{
+    height: 80px;width: 80px;border-radius: 50%;
+    
+}
+
+.div6{height: 80px;width: 80px;border-color: gold;border: solid; border-radius: 50%;
+position: relative; bottom: 250px;left: 70px;cursor: pointer;
+}
+
+.image6
+{height: 80px;width: 80px;border-radius: 50%;
+}
+.div7{height: 80px;width: 80px;border-color: gold;border: solid; border-radius: 50%;
+position: relative;bottom: 300px;cursor: pointer;display: block;
+}
+.image7{
+    height: 80px;width: 80px;border-radius: 50%; 
+}
+
