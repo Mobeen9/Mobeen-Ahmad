@@ -1,0 +1,58 @@
+.p1{
+background-color: aqua;
+font-size: 2px;
+font-size: 2em;
+}
+
+.p2{width: 70vh;
+    background-color: blue; height: 70vh;
+    
+}
+
+.p3{
+
+width: vw;
+height: 50vw;
+background-color: blueviolet;
+
+}
+
+.div1{
+
+    height: 60px;
+    width: 70px;
+    background-color: aquamarine;
+}
+
+
+@media(min-width:900px) and (max-width= 1000px)
+{
+
+.div1{
+background-color: brown;
+width: 60px;
+height: 70px;
+
+}
+
+}
+
+
+.div2{
+
+    height: 70px;width: 60px;background-color: blueviolet;
+}
+
+@media(min-width:700px) and (max-width= 900px)
+{
+
+    .div2{
+        background-color: rgb(42, 165, 93);
+        width: 60px;
+        height: 70px;
+                }
+}
+
+
+
+
