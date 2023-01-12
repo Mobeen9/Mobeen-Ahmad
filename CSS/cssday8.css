@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{grid-area: header; background-color: black}
+.menu{grid-area: menu; background-color:rgb(44, 46, 46); text-align: center}
+.pic1{grid-area: pic1;}
+.content{grid-area: content; background-color: rgb(78, 116, 173);}
+.footer{grid-area: footer; background-color: black; font-size: xx-small;}
+
+.container {
+
+    background-color: rgb(199, 249, 249);
+    display: grid;
+    
+    row-gap: 2px;
+    grid-template-areas:
+    'header header header'
+    'menu menu menu'
+    'pic1 pic1 pic1'
+    'content content content'
+    'footer footer footer'
+          
+    ;
+   grid-template-rows: 60px 30px 150px 80px 100px;
+   
+}
+
+.h1, .h2, .h3{
+    
+    display: inline-block;
+    background-color: rgb(190, 224, 224);
+    color: black;
+}
+a{
+    
+    text-decoration: none;
+    
+    }
+
+.img1{
+
+    width: 150px;
+    height: 60px;
+    float: left;
+    
+    
+}
+
+
+.pic2{
+animation-name: divanimation;
+animation-duration: 6s;
+animation-iteration-count: 3;
+position: relative;
+height: 150px;
+width: 150px;
+ border-radius: 50%;
+ background-color: aqua;
+    
+}
+
+
+@keyframes divanimation{
+
+0%{ background-color: azure; left: 0px; top: 0px;}
+40%{ background-color: rgb(196, 50, 25); left: 200px; top: 0px;}
+60%{ background-color: rgb(37, 7, 87); left: 300px; top: 0px;}
+100%{ background-color: rgb(22, 154, 22); left: 0px; top: 0px;}
+}
+
+.pic3{
+float: left;
+    height: 90px;
+    width: 200px;
+
+}
+.pic3:hover{
+background-color: blueviolet;
+}
+
+.h1:hover{
+    background-color: blue;
+}
+.h2:hover{
+    background-color: blue;
+}
+.h3:hover{
+    background-color: blue;
+}
+.p1{
+ margin-top: 15px;
+color: goldenrod;
+text-align: center;
+font-style: italic;
+text-shadow: rgb(27, 192, 41) 5px 5px 5px;
+
+}
+
+.map1{
+
+    height: 100px;
+    width: 80px;
+}
+.map1{ 
+
+    float: left;
+}
+.p5, .p6{
+    margin-top: 10px;
+    color: goldenrod;
+    text-align: center;
+}
+.menu{
+border: solid 2px;
+
+}
+
+.input1:hover{
+    background-color: rgb(70, 70, 215);
+}
+.input2:hover{
+    background-color: rgb(70, 70, 215);
+}
+.sub1:hover{
+    background-color: green;
+}
+.map1{
+
+    height: 100px;
+    width: 250px;
+}
