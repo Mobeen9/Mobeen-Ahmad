@@ -5,14 +5,14 @@
 }
 
 .header{grid-area: header; background-color: black}
-.menu{grid-area: menu; background-color:rgb(44, 46, 46); text-align: center}
-.pic1{grid-area: pic1;}
-.content{grid-area: content; background-color: rgb(78, 116, 173);}
+.menu{grid-area: menu; background-color:rgb(22, 41, 41); text-align: center }
+.pic1{grid-area: pic1; background-image: url(/HTML/tiger.jpg);}
+.content{grid-area: content; background-color: white;}
 .footer{grid-area: footer; background-color: black; font-size: xx-small;}
 
 .container {
 
-    background-color: rgb(199, 249, 249);
+    background-color: white;
     display: grid;
     
     row-gap: 2px;
@@ -24,15 +24,20 @@
     'footer footer footer'
           
     ;
-   grid-template-rows: 60px 30px 150px 80px 100px;
+   grid-template-rows: 60px 30px 150px 270px 110px;
    
 }
 
 .h1, .h2, .h3{
     
     display: inline-block;
-    background-color: rgb(190, 224, 224);
-    color: black;
+    background-color: rgb(232, 244, 244);
+    color: rgb(65, 8, 8);
+    text-align: center;
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: small;
+    
 }
 a{
     
@@ -42,10 +47,12 @@ a{
 
 .img1{
 
-    width: 150px;
-    height: 60px;
+    width: 100px;
+    height: 50px;
     float: left;
-    
+    border-radius: 30%;
+    margin-top: 8px; 
+      
     
 }
 
@@ -53,19 +60,21 @@ a{
 .pic2{
 animation-name: divanimation;
 animation-duration: 6s;
-animation-iteration-count: 3;
+animation-iteration-count: 7;
 position: relative;
 height: 150px;
 width: 150px;
  border-radius: 50%;
  background-color: aqua;
+ align-items: center;
+ border: solid 1px; 
     
 }
 
 
 @keyframes divanimation{
 
-0%{ background-color: azure; left: 0px; top: 0px;}
+0%{ background-color: rgb(77, 169, 169); left: 0px; top: 0px;}
 40%{ background-color: rgb(196, 50, 25); left: 200px; top: 0px;}
 60%{ background-color: rgb(37, 7, 87); left: 300px; top: 0px;}
 100%{ background-color: rgb(22, 154, 22); left: 0px; top: 0px;}
@@ -73,22 +82,23 @@ width: 150px;
 
 .pic3{
 float: left;
-    height: 90px;
-    width: 200px;
+    height: 260px;
+    width: 150px;
+    margin-top: 2px;
+    padding: 2px;
+    border-radius: 10%;
+    
 
-}
-.pic3:hover{
-background-color: blueviolet;
 }
 
 .h1:hover{
-    background-color: blue;
+    background-color: rgb(159, 159, 212);
 }
 .h2:hover{
-    background-color: blue;
+    background-color: rgb(159, 151, 212);
 }
 .h3:hover{
-    background-color: blue;
+    background-color: rgb(159, 151, 212);
 }
 .p1{
  margin-top: 15px;
@@ -96,25 +106,26 @@ color: goldenrod;
 text-align: center;
 font-style: italic;
 text-shadow: rgb(27, 192, 41) 5px 5px 5px;
-
 }
 
 .map1{
-
+margin-top: 5px;
     height: 100px;
     width: 80px;
-}
-.map1{ 
-
     float: left;
 }
+
+
 .p5, .p6{
-    margin-top: 10px;
+    margin-top: 20px;
     color: goldenrod;
     text-align: center;
 }
 .menu{
 border: solid 2px;
+position: sticky;
+top: 0px;
+padding: 0px;
 
 }
 
@@ -131,4 +142,58 @@ border: solid 2px;
 
     height: 100px;
     width: 250px;
+}
+
+.c1{
+font-size: 20px;
+font-style: italic;
+text-align: center;
+padding: 8px;
+color: rgb(22 41 41);
+font-weight: bolder;
+}
+
+.c2{
+
+    font-size: smaller;
+    color: rgb(22 41 41);
+    text-align: center;
+    font-style: italic;
+
+}
+.f1{
+
+    font-size: small;
+}
+.s1{
+    font-size: small;
+}
+.m1{
+    color: goldenrod;
+    text-align: center;
+}
+.d1{
+padding: 4px;
+    height: 140px;
+    width: 140px;
+}
+.d2{
+padding: 4px;
+    height: 140px;
+    width: 140px;
+}
+.d3{
+padding: 4px;
+    height: 140px;
+    width: 140px;
+    margin-right: 10px;
+}
+.w1:hover{background-color: red;}
+.w2:hover{background-color: red;}
+.w3:hover{background-color: red;}
+
+.pic{
+    background-image: url(/HTML/tiger.jpg);
+}.s1, .s2, .s3{
+    color: goldenrod;
 }

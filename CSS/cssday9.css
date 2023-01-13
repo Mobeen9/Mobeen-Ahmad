@@ -1,0 +1,12 @@
+body{
+
+    background-image: url(/HTML/cricket\ background\ image.jpg);
+}
+
+.logo{
+
+    height: 80px;
+    width: 80px;
+    border: solid 2PX;
+    border-radius: 50%;
+}
